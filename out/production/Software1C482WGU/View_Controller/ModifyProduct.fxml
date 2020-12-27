@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="750.0" prefWidth="1200.0" style="-fx-border-width: 2px; -fx-border-color: blue;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.ModifyProductController">
+    <children>
+        <AnchorPane layoutX="40.0" layoutY="51.0" prefHeight="650.0" prefWidth="1132.0" style="-fx-border-width: 2px; -fx-border-color: black; -fx-border-radius: 25px;">
+            <children>
+                <Label layoutX="33.0" layoutY="41.0" prefHeight="19.0" prefWidth="115.0" text="Modify Product">
+                    <font>
+                        <Font name="System Bold" size="14.0" />
+                    </font>
+                </Label>
+                <Label layoutX="89.0" layoutY="172.0" text="ID">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Label>
+                <Label layoutX="89.0" layoutY="217.0" prefHeight="17.0" prefWidth="66.0" text="Name">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Label>
+                <Label layoutX="89.0" layoutY="258.0" prefHeight="17.0" prefWidth="38.0" text="Inv">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Label>
+                <Label layoutX="89.0" layoutY="300.0" prefHeight="17.0" prefWidth="73.0" text="Price/Cost">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Label>
+                <Label layoutX="89.0" layoutY="350.0" prefHeight="17.0" prefWidth="53.0" text="Max">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Label>
+                <TextField layoutX="186.0" layoutY="177.0" />
+                <TextField layoutX="186.0" layoutY="213.0" />
+                <TextField layoutX="186.0" layoutY="254.0" />
+                <TextField layoutX="186.0" layoutY="296.0" />
+                <TextField layoutX="186.0" layoutY="346.0" />
+                <Label layoutX="368.0" layoutY="350.0" prefHeight="17.0" prefWidth="53.0" text="Min">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font>
+                </Label>
+                <TextField layoutX="421.0" layoutY="346.0" />
+                <TableView layoutX="636.0" layoutY="61.0" prefHeight="200.0" prefWidth="463.0">
+                    <columns>
+                        <TableColumn text="Part ID" />
+                        <TableColumn prefWidth="127.0" text="Part Name" />
+                        <TableColumn prefWidth="115.0" text="Inventory Level" />
+                        <TableColumn prefWidth="140.0" text="Price/ Cost per Unit" />
+                    </columns>
+                </TableView>
+                <Button layoutX="1010.0" layoutY="267.0" mnemonicParsing="false" text="Add">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Button>
+                <TableView layoutX="636.0" layoutY="300.0" prefHeight="200.0" prefWidth="463.0">
+                    <columns>
+                        <TableColumn text="Part ID" />
+                        <TableColumn prefWidth="127.0" text="Part Name" />
+                        <TableColumn prefWidth="115.0" text="Inventory Level" />
+                        <TableColumn prefWidth="140.0" text="Price/ Cost per Unit" />
+                    </columns>
+                </TableView>
+                <Button layoutX="937.0" layoutY="520.0" mnemonicParsing="false" text="Remove  Associated Part">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Button>
+                <Button layoutX="937.0" layoutY="568.0" mnemonicParsing="false" text="Save">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Button>
+                <Button layoutX="1029.0" layoutY="568.0" mnemonicParsing="false" text="Cancel">
+                    <font>
+                        <Font name="System Bold" size="12.0" />
+                    </font></Button>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

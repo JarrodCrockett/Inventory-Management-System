@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" style="-fx-border-color: blue; -fx-border-width: 2px;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View_Controller.AddPartController">
+   <children>
+      <Label layoutX="69.0" layoutY="81.0" prefHeight="20.0" prefWidth="95.0" text="Add Part">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <RadioButton layoutX="187.0" layoutY="83.0" mnemonicParsing="false" text="In-House">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton layoutX="330.0" layoutY="83.0" mnemonicParsing="false" text="Outsourced">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="89.0" layoutY="172.0" text="ID">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="89.0" layoutY="217.0" prefHeight="17.0" prefWidth="66.0" text="Name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="89.0" layoutY="258.0" prefHeight="17.0" prefWidth="38.0" text="Inv">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="89.0" layoutY="300.0" prefHeight="17.0" prefWidth="73.0" text="Price/Cost">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="89.0" layoutY="350.0" prefHeight="17.0" prefWidth="53.0" text="Max">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="89.0" layoutY="396.0" prefHeight="17.0" prefWidth="81.0" text="Machine ID">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField layoutX="186.0" layoutY="177.0" />
+      <TextField layoutX="186.0" layoutY="213.0" />
+      <TextField layoutX="186.0" layoutY="254.0" />
+      <TextField layoutX="186.0" layoutY="296.0" />
+      <TextField layoutX="186.0" layoutY="346.0" />
+      <TextField layoutX="187.0" layoutY="392.0" />
+      <Label layoutX="347.0" layoutY="350.0" prefHeight="17.0" prefWidth="53.0" text="Min">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <TextField layoutX="383.0" layoutY="346.0" />
+      <Button layoutX="321.0" layoutY="473.0" mnemonicParsing="false" text="Save">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="391.0" layoutY="473.0" mnemonicParsing="false" text="Cancel">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
